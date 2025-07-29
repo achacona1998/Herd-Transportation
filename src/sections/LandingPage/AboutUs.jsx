@@ -1,0 +1,46 @@
+import { AboutCard } from "../../components/LandingPage/AboutCard";
+import Header from "../../components/UI/Header";
+
+const AboutUs = () => {
+  return (
+    <section className=" pt-10">
+      <div className="container mx-auto ">
+        <Header title="About Herd Transportation" />
+
+        <div className="flex flex-col md:flex-row gap-12 items-start  justify-between  ">
+          <div className="w-full">
+            <img
+              src="/img/LandingPage/aboutUs.avif"
+              alt="About Herd Transportation"
+              loading="lazy"
+              className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+            />
+          </div>
+
+          <div className="w-full">
+            <p className="text-lg  mb-6 text-justify">
+              At Herd Transportation, we're dedicated to revolutionizing the way
+              people move. With years of experience in the transportation
+              industry, we provide reliable, efficient, and comfortable
+              transportation solutions for both individuals and businesses. Our
+              commitment to excellence and customer satisfaction sets us apart
+              from the competition. We leverage cutting-edge technology and a
+              highly trained team to ensure every journey is seamless and
+              stress-free. From corporate events to personal travel, our diverse
+              fleet and personalized service approach guarantee that we can meet
+              any transportation need while maintaining the highest standards of
+              safety and professionalism. What truly distinguishes us is our
+              unwavering focus on creating positive experiences, building
+              lasting relationships with our clients, and continuously adapting
+              to meet the evolving demands of modern transportation.
+            </p>
+
+            <AboutCard />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutUs;

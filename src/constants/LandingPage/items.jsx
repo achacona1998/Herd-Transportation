@@ -7,8 +7,8 @@ import {
 
 export const AboutItemsConst = [
   {
-    value: "500+",
-    name: "Satisfied Clients",
+    value: "10+",
+    name: "Years of Service",
   },
   {
     value: "50+",

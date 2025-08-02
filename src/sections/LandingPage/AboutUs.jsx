@@ -3,22 +3,22 @@ import Header from "../../components/UI/Header";
 
 const AboutUs = () => {
   return (
-    <section className=" pt-10">
-      <div className="container mx-auto ">
+    <section className="pt-10 text-white px-4 sm:px-6">
+      <div className="container mx-auto">
         <Header title="About Herd Transportation" />
 
-        <div className="flex flex-col md:flex-row gap-12 items-start  justify-between  ">
-          <div className="w-full">
+        <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start justify-between">
+          <div className="w-full md:w-1/2">
             <img
               src="/img/LandingPage/aboutUs.avif"
               alt="About Herd Transportation"
               loading="lazy"
-              className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+              className="w-full h-[300px] sm:h-[350px] md:h-[400px] object-cover rounded-lg shadow-lg"
             />
           </div>
 
-          <div className="w-full">
-            <p className="text-lg  mb-6 text-justify">
+          <div className="w-full md:w-1/2 mt-6 md:mt-0">
+            <p className="text-base sm:text-lg mb-6 text-justify">
               At Herd Transportation, we're dedicated to revolutionizing the way
               people move. With years of experience in the transportation
               industry, we provide reliable, efficient, and comfortable

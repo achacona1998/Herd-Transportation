@@ -10,9 +10,9 @@ import { Info } from "../Footer/Info";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-900 text-white mt-20">
-      <div className=" px-8 pt-7 pb-2">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-gradient-to-bl from-[#1BAA6E] to-[#0F3D2E] text-white">
+      <div className="px-4 sm:px-6 md:px-8 pt-7 pb-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Información de la empresa */}
           <Info
             title="Herd Transportation"
@@ -32,12 +32,12 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t-8 border-[#CFB53B] mt-5 pt-2 text-center ">
-          <p>
+        <div className="border-t-2 border-[#CFB53B] mt-5 pt-2 text-center">
+          <p className="text-sm sm:text-base">
             &copy; {new Date().getFullYear()} Herd Transportation. All rights
             reserved.
           </p>
-          <p>
+          <p className="text-sm sm:text-base">
             Designed and implemented by:{" "}
             <Link
               to="https://sierraesperanzac.com/"

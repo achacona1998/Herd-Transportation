@@ -65,23 +65,24 @@ const Form = () => {
   };
 
   return (
-    <section className="">
+    <section className="w-full">
       <form
-        className="bg-green-100 p-6 rounded-xl border border-[#CFB53B]"
+        className="bg-gradient-to-tl from-[#1BAA6E] to-[#0F3D2E] p-4 sm:p-5 md:p-6 rounded-xl border border-[#CFB53B] w-full"
         onSubmit={formType === "contact" ? handleSubmit : handleCareerSubmit}>
         <Subheader
           title={formType === "contact" ? "Contact Form" : "Career Form"}
         />
-        <div className="flex justify-center mb-6 -mt-6">
+        <div className="flex flex-col sm:flex-row justify-center mb-6 -mt-6 gap-3 sm:gap-4 md:gap-6">
           <Button
             variant={formType === "contact" ? "primary" : "secondary"}
             onClick={() => setFormType("contact")}
-            className="mr-2">
+            className="w-full sm:w-auto">
             Contact Form
           </Button>
           <Button
             variant={formType === "career" ? "primary" : "secondary"}
-            onClick={() => setFormType("career")}>
+            onClick={() => setFormType("career")}
+            className="w-full sm:w-auto">
             Career Form
           </Button>
         </div>
@@ -123,35 +124,35 @@ const Form = () => {
             <div className="mb-4">
               <label
                 htmlFor="subject"
-                className="block mb-2 font-semibold text-gray-700">
+                className="block mb-2 font-semibold text-white">
                 Subject
               </label>
               <select
                 id="subject"
                 name="subject"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700 mb-4 text-black"
+                className="w-full px-3 py-2 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#CFB53B] mb-4 text-white"
                 value={formData.subject}
                 onChange={handleChange}
                 required>
-                <option value="">Select a subject</option>
-                <option value="consulta">General Inquiry</option>
-                <option value="cotizacion">Quote Request</option>
-                <option value="reclamo">Complaint</option>
-                <option value="otro">Other</option>
+                <option className="text-gray-600" value="">Select a subject</option>
+                <option className="text-black" value="consulta">General Inquiry</option>
+                <option className="text-black" value="cotizacion">Quote Request</option>
+                <option className="text-black" value="reclamo">Complaint</option>
+                <option className="text-black" value="otro">Other</option>
               </select>
             </div>
 
             <div className="mb-4">
               <label
                 htmlFor="message"
-                className="block text-gray-700 font-medium mb-2">
+                className="block text-white font-medium mb-2">
                 Message
               </label>
               <textarea
                 id="message"
                 name="message"
                 rows="4"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700 mb-4 text-black"
+                className="w-full px-3 py-2 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#CFB53B] mb-4 text-white"
                 value={formData.message}
                 onChange={handleChange}
                 required></textarea>
@@ -191,14 +192,14 @@ const Form = () => {
             <div className="mb-4">
               <label
                 htmlFor="coverLetter"
-                className="block text-gray-700 font-medium mb-2">
+                className="block text-white font-medium mb-2">
                 Cover Letter
               </label>
               <textarea
                 id="coverLetter"
                 name="coverLetter"
                 rows="4"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-700 mb-4 text-black"
+                className="w-full px-3 py-2 border border-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#CFB53B] mb-4 text-white"
                 value={careerData.coverLetter}
                 onChange={handleCareerChange}
                 required></textarea>
@@ -206,13 +207,14 @@ const Form = () => {
           </>
         )}
 
-        <div className="flex gap-4 items-center justify-end">
-          <Button type="submit">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 items-center sm:justify-end">
+          <Button type="submit" className="w-full sm:w-auto">
             {formType === "contact" ? "Send Message" : "Submit Application"}
           </Button>
           <Button
             variant="secondary"
-            onClick={formType === "contact" ? handleReset : handleCareerReset}>
+            onClick={formType === "contact" ? handleReset : handleCareerReset}
+            className="w-full sm:w-auto">
             Reset
           </Button>
         </div>

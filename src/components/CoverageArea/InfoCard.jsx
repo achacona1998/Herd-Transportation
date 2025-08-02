@@ -9,7 +9,7 @@ import { InfoItem } from "./InfoItem";
 
 export const InfoCard = () => {
   return (
-    <div className="grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 px-4 sm:px-6">
       {DetailArea.map((item, index) => (
         <InfoItem key={index} {...item} />
       ))}

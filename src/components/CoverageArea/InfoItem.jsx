@@ -12,27 +12,27 @@ export const InfoItem = ({
   centros,
   servicio,
 }) => (
-  <div className="bg-green-100 flex flex-col justify-between p-5 rounded-xl  border border-[#CFB53B] ">
-    <div className="flex items-center gap-3 text-green-700 pb-3 ">
-      <div className="p-2 rounded-full bg-green-800">
-        <Pointer className="w-5 h-5 text-white" />
+  <div className="bg-gradient-to-bl from-[#1BAA6E] to-[#0F3D2E] flex flex-col justify-between p-4 sm:p-5 rounded-xl border border-[#CFB53B] text-white">
+    <div className="flex items-center gap-2 sm:gap-3 pb-2 sm:pb-3">
+      <div className="p-1.5 sm:p-2 rounded-full border border-[#CFB53B]">
+        <Pointer className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
       </div>
-      <h4 className="text-xl font-bold ">{name}</h4>
+      <h4 className="text-lg sm:text-xl font-bold">{name}</h4>
     </div>
-    <p className="text-md text-black  font-semibold text-justify py-3">
+    <p className="text-sm sm:text-base font-semibold text-justify py-2 sm:py-3">
       {description}
     </p>
     <div className="flex items-center gap-2 pt-2">
-      <Hospital className="h-5 w-5 text-green-700" />
-      {hospitales}
+      <Hospital className="h-4 w-4 sm:h-5 sm:w-5" />
+      <span className="text-sm sm:text-base">{hospitales}</span>
     </div>
     <div className="flex items-center gap-2 pt-2">
-      <CentroMedico className="h-5 w-5 text-green-700" />
-      {centros}
+      <CentroMedico className="h-4 w-4 sm:h-5 sm:w-5" />
+      <span className="text-sm sm:text-base">{centros}</span>
     </div>
     <div className="flex items-center gap-2 pt-2">
-      <Casa className="h-5 w-5 text-green-700" />
-      {servicio}
+      <Casa className="h-4 w-4 sm:h-5 sm:w-5" />
+      <span className="text-sm sm:text-base">{servicio}</span>
     </div>
   </div>
 );

@@ -5,7 +5,7 @@ import Info from "../sections/Contacto/Info";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen pt-8">
+    <div className="min-h-screen pt-6 sm:pt-8 md:pt-10 px-4 sm:px-6">
       <Header
         title="Contact Us"
         subtitle={
@@ -18,9 +18,9 @@ const Contact = () => {
           </>
         }
       />
-      <div className="grid  pt-10 grid-cols-2 gap-8 container mx-auto">
+      <div className="grid pt-10 grid-cols-1 md:grid-cols-2 gap-8 container mx-auto px-4 sm:px-6">
         <Form />
-        <div className="space-y-8 ">
+        <div className="space-y-8">
           <Info />
           <Horario />
         </div>

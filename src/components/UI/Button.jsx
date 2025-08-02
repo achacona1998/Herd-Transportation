@@ -12,9 +12,9 @@ const Button = memo(
   }) => {
     const variatClass = {
       primary:
-        "px-4 py-2 font-semibold text-white rounded-md transition duration-300 bg-green-900 hover:bg-green-700",
+        "px-3 sm:px-4 py-1.5 sm:py-2 font-semibold text-white rounded-md bg-gradient-to-t from-[#1BAA6E] to-[#0F3D2E] hover:scale-105 sm:hover:scale-110 ring-[#CFB53B] ring-1 transition-transform duration-300 text-sm sm:text-base flex items-center justify-center",
       secondary:
-        "px-4 py-2 text-green-700 bg-gray-300 rounded-md transition duration-300 hover:bg-gray-500 hover:text-green-300 font-semibold",
+        "px-3 sm:px-4 py-1.5 sm:py-2 font-semibold text-white rounded-md bg-gradient-to-t from-[#0F3D2E] to-[#1BAA6E] hover:scale-105 sm:hover:scale-110 ring-[#CFB53B] ring-1 transition-transform duration-300 text-sm sm:text-base flex items-center justify-center",
     };
     return (
       <button

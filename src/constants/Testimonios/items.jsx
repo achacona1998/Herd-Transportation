@@ -35,6 +35,24 @@ export const testimonialData = [
     testimonial:
       "Living alone and being unable to drive made me feel isolated. Herd Transportation has given me back my independence. I can now attend my social activities and medical appointments without having to burden my family.",
   },
+  {
+    name: "Sarah Johnson",
+    testimonial:
+      "Herd Transportation has been a game-changer for our company's logistics. Their reliable service and professional drivers ensure our deliveries are always on time.",
+    rating: "5",
+  },
+  {
+    name: "Michael Chen",
+    testimonial:
+      "I've been using Herd Transportation for my restaurant supplies for over a year now. Their temperature-controlled vehicles and careful handling keep our products in perfect condition.",
+    rating: "5",
+  },
+  {
+    name: "Emily Rodriguez",
+    testimonial:
+      "The team at Herd Transportation is incredibly responsive and flexible. They've helped us manage complex event logistics with ease and professionalism.",
+    rating: "4",
+  },
 ];
 
 export const faqData = [

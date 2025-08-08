@@ -1,11 +1,12 @@
 import { AboutCard } from "../../components/LandingPage/AboutCard";
 import Header from "../../components/UI/Header";
+import { PAGE_HEADERS } from "../../constants/headers";
 
 const AboutUs = () => {
   return (
     <section className="pt-10 text-white px-4 sm:px-6">
       <div className="container mx-auto">
-        <Header title="About Herd Transportation" />
+        <Header title={PAGE_HEADERS.ABOUT_US.title} />
 
         <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start justify-between">
           <div className="w-full md:w-1/2">

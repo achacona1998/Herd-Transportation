@@ -1,7 +1,7 @@
 export const ServicesConst = [
   {
     icon: "",
-    name: "Basic Care",
+    name: "Ambulatory",
     description:
       "Standard transportation service with professional drivers who offer assistance getting in and out of the vehicle. Ideal for people with independent mobility.",
     servicios: [
@@ -15,11 +15,11 @@ export const ServicesConst = [
   },
   {
     icon: "",
-    name: "Medical Support",
+    name: "Wheelchair",
     description:
-      "Specialized transportation with trained personnel to assist passengers with specific medical needs or reduced mobility.",
+      "Specialized transportation with trained personnel to assist passengers with specific medical needs or reduced mobility. Ideal for people on wheelchairs",
     servicios: [
-      "Staff with basic medical training",
+      "Staff with basic wheelchair movility training",
       "Wheelchair accessible vehicles",
       "Door-to-door assistance",
       "Medical equipment transport",
@@ -29,9 +29,9 @@ export const ServicesConst = [
   },
   {
     icon: "",
-    name: "Complete Assistance",
+    name: "Stretcher",
     description:
-      "Premium service with certified medical assistants who provide personalized care throughout the journey.",
+      "Premium service with certified stretcher assistants who provide personalized care throughout the journey.",
     servicios: [
       "Certified medical assistants",
       "Vital signs monitoring",

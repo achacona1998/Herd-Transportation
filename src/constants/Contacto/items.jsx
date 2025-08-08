@@ -1,32 +1,32 @@
 export const infoConst = [
   {
     name: "Address",
-    data: "123 Senior Care Drive, Miami, FL 33101",
+    data: "1203 SE 9th Terrace, Cape Coral, FL, 33990",
   },
   {
     name: "Phone",
-    data: "(305) 555-7890",
+    data: "(877) 242 4373",
   },
   {
     name: "Email",
-    data: "info@herdtransportation.com",
+    data: "info@herdfl.com",
   },
   {
     name: "Availability",
-    data: "Available 24/7 for your transportation needs",
+    data: "Available Regular Office Hours",
   },
 ];
 export const horarioConst = [
   {
     name: "Monday - Friday",
-    data: "8:00 AM - 8:00 PM",
+    data: "8:00 AM - 5:00 PM",
   },
   {
     name: "Saturday",
-    data: "9:00 AM - 6:00 PM",
+    data: "OFF",
   },
   {
     name: "Sunday",
-    data: "10:00 AM - 4:00 PM",
+    data: "OFF",
   },
 ];

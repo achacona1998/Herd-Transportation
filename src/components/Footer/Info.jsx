@@ -6,13 +6,15 @@ export const Info = ({ title, slogan, items }) => {
       <h3 className="text-xl sm:text-2xl font-semibold">{title}</h3>
       <p className="text-base sm:text-lg">{slogan}</p>
       <div>
-        <h4 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Síguenos</h4>
+        <h4 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+          Síguenos
+        </h4>
         <div className="flex space-x-3 sm:space-x-4">
           {items.map((item, index) => (
             <Link
               key={index}
               to={item.link}
-              className="inline-block transition hover:scale-125 sm:hover:scale-150 hover:opacity-70 duration-300">
+              className="inline-block transition hover:scale-125 sm:hover:scale-150 hover:text-[#CFB53B] duration-300 ">
               <span className="sr-only">{item.name}</span>
               <item.icon className="w-6 h-6 sm:w-7 sm:h-7" />
             </Link>

@@ -10,7 +10,7 @@ export const QuickLinksConst = [
     link: "/coverage",
   },
   {
-    name: "Services", 
+    name: "Services",
     link: "/services",
   },
   {
@@ -36,10 +36,10 @@ export const OurServicesConst = [
     name: "Regular Car Transport",
   },
   {
-    name: "Medical Van Services",
+    name: "Wheelchair Services",
   },
   {
-    name: "Ambulance NEMT",
+    name: "Stretcher",
   },
   {
     name: "Transport Bus",
@@ -55,22 +55,22 @@ export const OurServicesConst = [
 export const ContactUsConst = [
   {
     icon: "",
-    name: "123 Senior Care Drive, Miami, FL 33101",
+    name: "1203 SE 9th Terrace, Cape Coral, FL 33990",
     link: "",
   },
   {
     icon: "",
-    name: "(305) 555-7890",
-    link: "",
+    name: "(877) 242 4373",
+    link: "tel: +1 (877) 242 4373",
   },
   {
     icon: "",
-    name: "info@herdtransportation.com",
-    link: "mailto:info@herdtransportation.com",
+    name: "info@herdfl.com",
+    link: "mailto:info@herdfl.com",
   },
   {
     icon: "",
-    name: "Available 24/7 for your transportation needs",
+    name: "Available Regular Office Hours",
     link: "",
   },
 ];

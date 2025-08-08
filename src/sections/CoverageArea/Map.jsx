@@ -1,5 +1,6 @@
 import { MapCard } from "../../components/CoverageArea/MapCard";
 import Subheader from "../../components/UI/Subheader";
+import { SECTION_SUBHEADERS } from "../../constants/headers";
 
 const Map = () => {
   return (
@@ -15,13 +16,8 @@ const Map = () => {
 
       <div className="flex flex-col items-center md:w-1/2">
         <Subheader
-          title="Area List"
-          subtitle={
-            <>
-              Select an area to see more details <br className="hidden sm:block" /> about our services in
-              that location.
-            </>
-          }
+          title={SECTION_SUBHEADERS.AREA_LIST.title}
+          subtitle={SECTION_SUBHEADERS.AREA_LIST.subtitle}
         />
         <MapCard />
       </div>

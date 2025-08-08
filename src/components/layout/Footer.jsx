@@ -41,7 +41,7 @@ const Footer = () => {
             Designed and implemented by:{" "}
             <Link
               to="https://sierraesperanzac.com/"
-              className="font-bold"
+              className="font-bold hover:text-[#CFB53B] transition-colors duration-300"
               target="_blank">
               Sierra-Esperanza Creations
             </Link>

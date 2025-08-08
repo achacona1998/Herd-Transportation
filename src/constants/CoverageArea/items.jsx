@@ -1,52 +1,41 @@
 export const AreaConst = [
   {
-    name: "Miami Downtown",
-    service: "Full service 24/7",
+    name: "Collier County",
+    service: "Full service ",
   },
   {
-    name: "Coral Gables",
-    service: "Full service 24/7",
+    name: "Lee County",
+    service: "Full service ",
   },
   {
-    name: "Miami Beach",
-    service: "Full service 24/7",
-  },
-  {
-    name: "Kendall",
-    service: "Full service 24/7",
+    name: "Charlotte County",
+    service: "Recurrent Service",
   },
 ];
 export const DetailArea = [
   {
-    name: "Miami Downtown",
+    name: "Collier County",
     description:
-      "Full coverage in downtown Miami, including Brickell, Wynwood and Design District. Service available 24 hours.",
-    hospitales: "5 main hospitals covered",
-    centros: "12 associated medical centers",
-    servicio: "Door to door service",
+      "Full coverage in the County, with most availability on the main cities such as Naples, Immokale, Bonita Springs.",
+    hospitales: "All main hospitals covered",
+    centros: "Several medical centers",
+    servicio: "All Level of Services served",
   },
   {
-    name: "Coral Gables",
+    name: "Lee County",
     description:
-      "Full service throughout the Coral Gables area, including Miracle Mile and University of Miami. Available 24/7.",
-    hospitales: "3 main hospitals covered",
-    centros: "8 associated medical centers",
-    servicio: "Door to door service",
+      "Full service throughout the County area, including Cape Coral, Lehigh Acres and Fort Myers.",
+    hospitales: "All main hospitals covered",
+    centros: "Several associated medical centers",
+    servicio: "All Level of Services served",
   },
   {
-    name: "Miami Beach",
+    name: "Charlotte County",
     description:
-      "Coverage throughout Miami Beach island, from South Beach to North Beach. Service available 24 hours.",
+      "Coverage throughout Charlotte County, from Port Charlotte to Punta Gorda. Service available 24 hours.",
     hospitales: "2 main hospitals covered",
-    centros: "10 associated medical centers",
-    servicio: "Door to door service",
-  },
-  {
-    name: "Kendall",
-    description:
-      "Full coverage in the Kendall area, including West Kendall and East Kendall. Service available 24/7.",
-    hospitales: "4 main hospitals covered",
-    centros: "15 associated medical centers",
-    servicio: "Door to door service",
+    centros: "10+ associated medical centers",
+    servicio: "All Level of Services served",
   },
 ];
+

@@ -1,20 +1,14 @@
 import { ServicesCard } from "../../components/LandingPage/ServicesCard";
 import Header from "../../components/UI/Header";
+import { PAGE_HEADERS } from "../../constants/headers";
 
 const Services = () => {
   return (
     <section className="pt-16 sm:pt-20 px-4 sm:px-6">
       <div className="container mx-auto">
         <Header
-          title="What do we offer?"
-          subtitle={
-            <>
-              We offer safe and reliable transportation solutions tailored to
-              the needs
-              <br className="hidden sm:block" />
-              of seniors and people with reduced mobility.
-            </>
-          }
+          title={PAGE_HEADERS.SERVICES.title}
+          subtitle={PAGE_HEADERS.SERVICES.subtitle}
         />
 
         <ServicesCard />

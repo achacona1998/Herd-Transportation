@@ -22,10 +22,6 @@ export const QuickLinksConst = [
     link: "/trips",
   },
   {
-    name: "Testimonials",
-    link: "/testimonials",
-  },
-  {
     name: "Contact Us",
     link: "/contact",
   },

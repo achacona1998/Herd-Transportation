@@ -5,7 +5,7 @@ export const Info = ({ title, slogan, items }) => {
     <div className="space-y-3 sm:space-y-4">
       <h3 className="text-xl sm:text-2xl font-semibold">{title}</h3>
       <p className="text-base sm:text-lg">{slogan}</p>
-      <div>
+      {/* <div>
         <h4 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
           Síguenos
         </h4>
@@ -20,7 +20,7 @@ export const Info = ({ title, slogan, items }) => {
             </Link>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

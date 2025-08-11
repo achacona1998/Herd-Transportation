@@ -23,10 +23,10 @@ export const horarioConst = [
   },
   {
     name: "Saturday",
-    data: "OFF",
+    data: "Special Request",
   },
   {
     name: "Sunday",
-    data: "OFF",
+    data: "Special Request",
   },
 ];

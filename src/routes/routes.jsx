@@ -6,7 +6,6 @@ import MainLayout from "../layouts/MainLayout";
 import LandingPage from "../pages/LandingPage";
 import CoverageArea from "../pages/CoverageArea";
 import LevelsOfServices from "../pages/LevelsOfServices";
-import Testimonios from "../pages/Testimonios";
 import Trips from "../pages/Trips";
 import TypesVehicles from "../pages/TypesVehicles";
 import Contacto from "../pages/Contacto";
@@ -27,7 +26,6 @@ const AppRoutes = () => {
         {/* Rutas secundarias */}
         <Route path="/coverage" element={<CoverageArea />} />
         <Route path="/services" element={<LevelsOfServices />} />
-        <Route path="/testimonials" element={<Testimonios />} />
         <Route path="/trips" element={<Trips />} />
         <Route path="/vehicles" element={<TypesVehicles />} />
         <Route path="/contact" element={<Contacto />} />

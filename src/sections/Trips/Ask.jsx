@@ -16,11 +16,6 @@ const Ask = () => {
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 md:gap-8 w-full sm:w-auto">
           <Button
-            onClick={() => navigate("/testimonials")}
-            className="w-full sm:w-auto">
-            Read Testimonials
-          </Button>
-          <Button
             onClick={() => navigate("/")}
             variant="secondary"
             className="w-full sm:w-auto">

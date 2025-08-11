@@ -11,6 +11,18 @@ export const AreaConst = [
     name: "Charlotte County",
     service: "Recurrent Service",
   },
+  {
+    name: "Miami Dade County",
+    service: "Full service ",
+  },
+  {
+    name: "Palm Beach County",
+    service: "Full service ",
+  },
+  {
+    name: "Broward County",
+    service: "Recurrent service ",
+  },
 ];
 export const DetailArea = [
   {
@@ -37,5 +49,28 @@ export const DetailArea = [
     centros: "10+ associated medical centers",
     servicio: "All Level of Services served",
   },
+  {
+    name: "Palm Beach County",
+    description:
+      "Full coverage in the County, without any exception, full service .",
+    hospitales: "All main hospitals covered",
+    centros: "All medical centers",
+    servicio: "All Level of Services served",
+  },
+  {
+    name: "Broward County",
+    description:
+      "recurrentl coverage in the County, with most availability for Hospital Discharges and special trips.",
+    hospitales: "All main hospitals covered",
+    centros: "Several medical centers",
+    servicio: "All Level of Services served",
+  },
+  {
+    name: "Miami Dade County",
+    description:
+      "Full coverage in the County, with special focus on the metropolitan areas for quick response ",
+    hospitales: "All main hospitals covered",
+    centros: "Several medical centers",
+    servicio: "All Level of Services served",
+  },
 ];
-

@@ -2,7 +2,7 @@ import { Ambulancia, Ban, Bus, Car } from "../../assets/icons/icons";
 
 export const VehiclesConst = [
   {
-    icon: <Car className="w-8 h-8 text-white"/>,
+    icon: <Car className="w-8 h-8 text-white" />,
     img: "./img/Vehicles/Car.avif",
     name: "Regular Cars",
     description:
@@ -17,7 +17,7 @@ export const VehiclesConst = [
       "Professional modern sedan car in white color, clean and well-maintained, photographed from a 3/4 front angle in daylight against a neutral background, showing comfortable interior through windows",
   },
   {
-    icon: <Ban className="w-8 h-8 text-white"/>,
+    icon: <Ban className="w-8 h-8 text-white" />,
     img: "./img/Vehicles/Ban.avif",
     name: "Medical Vans",
     description:
@@ -32,11 +32,11 @@ export const VehiclesConst = [
       "Medical transport van in white with blue medical stripe, wheelchair ramp extended, side door open showing wheelchair lift mechanism, photographed from side angle in bright lighting, clean professional appearance",
   },
   {
-    icon: <Ambulancia className="w-8 h-8 text-white"/>,
+    icon: <Ambulancia className="w-8 h-8 text-white" />,
     img: "./img/Vehicles/Ambulance.avif",
-    name: "NEMT Ambulances",
+    name: "Stretcher Transport",
     description:
-      "Non-emergency medical transport for patients requiring medical supervision during transfer. Equipped with stretchers and essential medical equipment.",
+      "Non-emergency medical transport for patients impared, requiring medical transfer from the bed to the stretcher . Equipped with stretchers and an extra driver.",
     carct: [
       "Stretcher transport",
       "Vital signs monitoring",
@@ -47,7 +47,7 @@ export const VehiclesConst = [
       "Non-emergency medical transport ambulance in white and blue colors, less urgent appearance than emergency ambulances, side doors open showing stretcher and basic medical equipment, clean and professional look, photographed in daylight",
   },
   {
-    icon: <Bus className="w-8 h-8 text-white"/>,
+    icon: <Bus className="w-8 h-8 text-white" />,
     img: "./img/Vehicles/Bus.avif",
     name: "Transport Buses",
     description:

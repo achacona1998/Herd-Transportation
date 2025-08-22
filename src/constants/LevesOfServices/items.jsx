@@ -20,19 +20,19 @@ export const ServicesConst = [
       "Staff with basic wheelchair movility training",
       "Wheelchair accessible vehicles",
       "Door-to-door assistance",
-      "Medical equipment transport",
+      "",
     ],
   },
   {
     icon: "",
     name: "Stretcher",
     description:
-      "Premium service with certified stretcher assistants who provide personalized care throughout the journey.",
+      "Premium service with two skilled drivers that will assist the patients and transfer him from the bed to the stretcher.",
     servicios: [
-      "Certified medical assistants",
-      "Vital signs monitoring",
-      "Medication administration",
-      "Coordination with medical centers",
+      "Space for a companion",
+      "Professional stretchers certified by the state",
+      "Déjale el último que está bien",
+      "",
     ],
   },
   {

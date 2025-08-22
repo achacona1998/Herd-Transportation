@@ -11,7 +11,7 @@ export const VehiclesConst = [
       "Capacity: 3-4 passengers",
       "Basic accessibility",
       "Ideal for short distances",
-      "Full climate control",
+      "Quick response",
     ],
     imagePrompt:
       "Professional modern sedan car in white color, clean and well-maintained, photographed from a 3/4 front angle in daylight against a neutral background, showing comfortable interior through windows",
@@ -25,7 +25,7 @@ export const VehiclesConst = [
     carct: [
       "Capacity: 5-6 passengers",
       "Ramp/lift included",
-      "Basic medical equipment",
+      "Dedicated seat for an extra companion for the wheelchair patient",
       "Trained personnel",
     ],
     imagePrompt:
@@ -39,8 +39,8 @@ export const VehiclesConst = [
       "Non-emergency medical transport for patients impared, requiring medical transfer from the bed to the stretcher . Equipped with stretchers and an extra driver.",
     carct: [
       "Stretcher transport",
-      "Vital signs monitoring",
-      "Medical staff on board",
+      "Two skilled drivers",
+      "Space for an extra companion for the patient in the stretcher",
       "Ideal for hospital discharges",
     ],
     imagePrompt:

@@ -27,7 +27,7 @@ const AboutUs = () => {
               commitment to excellence and customer satisfaction sets us apart
               from the competition. We leverage cutting-edge technology and a
               highly trained team to ensure every journey is seamless and
-              stress-free. From corporate events to personal travel, our diverse
+              stress-free. For Medical to Personal Travel, our diverse
               fleet and personalized service approach guarantee that we can meet
               any transportation need while maintaining the highest standards of
               safety and professionalism. What truly distinguishes us is our

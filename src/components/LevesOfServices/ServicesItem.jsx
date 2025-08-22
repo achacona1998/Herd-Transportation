@@ -17,7 +17,7 @@ export const ServicesItem = ({ name, description, servicios }) => {
           <li
             key={idx}
             className="flex items-center gap-2 text-sm sm:text-base md:text-lg">
-            <Ok className="w-3 h-3 sm:w-4 sm:h-4 rounded-full" />
+            {servicio && <Ok className="w-3 h-3 sm:w-4 sm:h-4 rounded-full" />}
             {servicio}
           </li>
         ))}

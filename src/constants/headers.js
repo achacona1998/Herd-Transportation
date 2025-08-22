@@ -4,7 +4,7 @@
 export const PAGE_HEADERS = {
   // Landing Page
   ABOUT_US: {
-    title: "About Herd Transportation",
+    title: "About Herd",
     subtitle: "",
   },
   TESTIMONIALS: {
@@ -15,7 +15,7 @@ export const PAGE_HEADERS = {
   SERVICES: {
     title: "What do we offer?",
     subtitle:
-      "We offer safe and reliable transportation solutions tailored to the needs of seniors and people with reduced mobility.",
+      "We offer safe and reliable transportation solutions ensuring everyone can access necessary healthcare, especially for those with mobility limitations or chronic illnesses. Playing a vital role in maintaining patient well-being, facilitating treatment adherence, and preventing complications from missed appointments. We bridge the gap for individuals who cannot drive themselves or lack access to reliable public transportation, ensuring they can attend doctor's appointments, therapy sessions, and other critical healthcare visits.",
   },
 
   // Trips Page

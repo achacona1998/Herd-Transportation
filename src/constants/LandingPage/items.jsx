@@ -11,7 +11,7 @@ export const AboutItemsConst = [
     name: "Years of Service",
   },
   {
-    value: "50+",
+    value: "100+",
     name: "Professional Drivers",
   },
 ];

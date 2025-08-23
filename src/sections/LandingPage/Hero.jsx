@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-20 bg-black/55" />
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center font-bold text-white z-20">
         Safe and Reliable Transportation <br className="hidden sm:block" /> for
-        All
+        Everyone
       </h1>
       <p className="z-20 text-white text-xl sm:text-2xl md:text-3xl pt-4 sm:pt-8 text-center">
         We Are Specialized in PPEC, Adult DayCare, and Mental Health Facilities

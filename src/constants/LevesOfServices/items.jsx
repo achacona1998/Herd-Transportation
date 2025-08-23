@@ -27,11 +27,11 @@ export const ServicesConst = [
     icon: "",
     name: "Stretcher",
     description:
-      "Premium service with two skilled drivers that will assist the patients and transfer him from the bed to the stretcher.",
+      "Premium service with two skilled drivers that will assist the patients and transfer him from the bed to the stretcher.",
     servicios: [
       "Space for a companion",
       "Professional stretchers certified by the state",
-      "Déjale el último que está bien",
+      "Coordination whit medical centers",
       "",
     ],
   },

@@ -7,7 +7,7 @@ const Hero = () => {
         All
       </h1>
       <p className="z-20 text-white text-xl sm:text-2xl md:text-3xl pt-4 sm:pt-8 text-center">
-        We Specialized in PPEC, Adult DayCare, and Mental Health Facilities
+        We Are Specialized in PPEC, Adult DayCare, and Mental Health Facilities
         Transport
       </p>
     </section>
